@@ -1,0 +1,110 @@
+
+body,p{
+    margin: 0;
+    padding: 0;
+}
+.acc{
+    color: hsl(0, 0%, 24%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+    margin-left: auto;
+    padding: 1.3em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo{
+    height: 30px;
+}
+nav img{
+    height: 25px;
+}
+main{
+    width: 50%;
+    margin: 1.1em auto;
+    text-align: center;
+}
+input{
+    margin-top: 30px;
+    width: 80%;
+    padding: 1.2em;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 80%);
+}
+input:hover{
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+.buttons{
+    margin-top: 2.2em;
+}
+.buttons button{
+    padding: 1em;
+    border: none;
+    font-size: 16px;
+    color: hsl(0, 0%, 24%);
+}
+button:hover{
+    border: 1px solid hsl(0, 0%, 80%);
+    cursor: pointer;
+}
+footer{
+    background-color: hsl(0, 1%, 96%);
+    margin-top: 15em;
+    color: grey;
+}
+.footerHead{
+    padding: 1em;
+    padding-left: 3em;
+}
+.footerTail{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(0, 1%, 86%);
+}
+.footerTail:hover{
+    cursor: pointer;
+}
+.left a{
+    margin-left: 1.5em;
+    color: grey;
+}
+.right a{
+    margin-right: 1.5em;
+    color: grey;
+}
+
+.mid{
+    margin-top: 1.9em;
+    color: hsl(0, 0%, 26%);
+}
+.bcc{
+    color: hsl(240, 63%, 38%);
+    margin-left: 0.5em;
+}
+.ccc{
+    color: grey;
+}
+.ddd{
+    height: 22px;
+}
+.eee{
+    height: 35px;
+    position: relative;
+    right: 45px;
+    top: 14px;
+}
+.fff{
+    height: 35px;
+    position: relative;
+    top: 1rem;
+    right: 41rem;
+}
